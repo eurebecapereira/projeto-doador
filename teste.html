@@ -9,70 +9,40 @@
 </head>
 <body>
     <div id="principal">
-        <h1>Doação de Sangue</h1>
-
-        <div class="bloco1">
-            <p>Uma das dúvidas de quem deseja doar sangue é: "Para que pessoas serve meu tipo sanguíneo?" Pensando nisso foi desenvolvido este programa, para que você possa responder a esta pergunta. Além disso, você tem acesso ao endereços dos Postos de Coleta.</p>
-            <p> O uso é bem simples, insira seu tipo sanguíneo abaixo, clique em verificar e descubra para quem você pode doar e de quem você pode receber.</p>
-            Digite seu tipo sanguíneo: <input type="text" name="" id="tipo">
-            <input type="button" value="VERIFICAR" id="verificar" onclick="verificar()">
-            <p id="ex"><i>Ex: Se seu tipo sanguíneo é A+, você deverá digitar "A Positivo".</i></p>
-        
-            <div id="res">
-            </div>
-            <p>Agora que você sabe para quem você pode doar, é só se dirigir ao Posto de Coleta mais próximo de você, e fazer sua doação!</p>
+        <div class="sub">
+            <h1>Doação de Sangue</h1>
         </div>
-        <div class="bloco2">
-        <h3>Tipos Sanguíneos:</h3>
-        <ul>
-            <li>A+</li>
-            <li>A-</li>
-            <li>B+</li>
-            <li>B-</li>
-            <li>O+</li>
-            <li>O-</li>
-            <li>AB+</li>
-            <li>AB-</li>
+
+        
+            <div class="bloco1">
+                <p>Uma das dúvidas de quem deseja doar sangue é: "Para que pessoas serve meu tipo sanguíneo?" Pensando nisso foi desenvolvido este programa, para que você possa responder a esta pergunta. Além disso, você tem acesso ao endereços dos Postos de Coleta.</p>
+                <p> O uso é bem simples, insira seu tipo sanguíneo abaixo, clique em verificar e descubra para quem você pode doar e de quem você pode receber.</p>
+            </div>
+
+            <img src="imagens/imgsangue.jpg" alt="Doação">
+            <div class="bloco2">
+                Digite seu tipo sanguíneo: <input type="text" name="" id="tipo">
+                <input type="button" value="VERIFICAR" id="verificar" onclick="verificar()">
+                <p id="ex"><i>Ex: Se seu tipo sanguíneo é A+, você deverá digitar "A Positivo".</i></p>
+                <div id="res">
+                </div>
+                <p>Agora que você sabe para quem você pode doar, é só se dirigir ao Posto de Coleta mais próximo de você, e fazer sua doação!</p>
+            </div>
+        
+        <div class="bloco3">
+            <h3>Tipos Sanguíneos:</h3>
+            <ul>
+                <li>A+</li>
+                <li>A-</li>
+                <li>B+</li>
+                <li>B-</li>
+                <li>O+</li>
+                <li>O-</li>
+                <li>AB+</li>
+                <li>AB-</li>
             </ul>
         </div>
-        <script>
-            //Preciso consertar muita coisa
-            //mas o código está funcionando
-            //procurar uma forma de fazer o input aceitar sinal de +
-            function verificar() {
-                var sge = window.document.querySelector('#tipo')
-                var res = window.document.querySelector('div#res')
-                var sangue = String(sge.value)
-                res.innerHTML = `<p>Parabéns! Seu tipo sanguíneo é ${sangue}!</p>`
-                if (sangue == 'A Positivo') {
-                    res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: AB+ A+!`
-
-                }
-            
-                if (sangue == 'A Negativo') {
-                res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: A+, AB+, A-, AB-!`
-                }
-                if (sangue == 'B Positivo') {
-                res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: B+ e AB+!`
-                }
-                if (sangue == 'B Negativo') {
-                res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: B+ e AB+B+, AB+, B-, AB-!`
-                }
-                if (sangue == 'O Positivo') {
-                res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: O+, A+, B+, AB+!`
-                }
-                if (sangue == 'O Negativo') {
-                res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: O+, A+, B+, AB+, A-, B-, AB-, O-!`
-                res.innerHTML += ` Que maravilha você é um doador universal!`
-                }
-                if (sangue == 'AB Positivo') {
-                res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: AB+!`
-                }
-                if (sangue == 'AB Negativo') {
-                res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: AB+ e AB-!`
-                }
-        }
-    </script>
+        <script src="doador.js"></script>
     </div>
 <footer id="endereco"><strong>Endereços dos Posto de Coleta:</strong> Hemoce: Av. José Bastos, 3390 - Rodolfo Teófilo, Fortaleza - CE, 60431-086 | Fugisan: Barão de Studart, 2626 - Dionísio Torres, Fortaleza - CE, 60120-375</footer>
 <footer><p class="rodape">DESENVOLVIDO POR REBECA PEREIRA</p></footer>
