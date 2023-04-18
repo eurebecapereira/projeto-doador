@@ -8,10 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="principal">
-        <div class="sub">
+    <section id="principal">
+        <div class="inicio">
             <h1>Doação de Sangue</h1>
         </div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Informe-se</a>
+            <a href="#">Endereços</a>
+            <a href="#">Fale Conosco</a>
+        </nav>
 
         
             <div class="bloco1">
@@ -19,7 +26,6 @@
                 <p> O uso é bem simples, insira seu tipo sanguíneo abaixo, clique em verificar e descubra para quem você pode doar e de quem você pode receber.</p>
             </div>
 
-            <img src="imagens/imgsangue.jpg" alt="Doação">
             <div class="bloco2">
                 Digite seu tipo sanguíneo: <input type="text" name="" id="tipo">
                 <input type="button" value="VERIFICAR" id="verificar" onclick="verificar()">
@@ -28,22 +34,10 @@
                 </div>
                 <p>Agora que você sabe para quem você pode doar, é só se dirigir ao Posto de Coleta mais próximo de você, e fazer sua doação!</p>
             </div>
+        <!--Recomeçando o código, identifiquei com cores fortes cada "caixa" para facilitar-->
         
-        <div class="bloco3">
-            <h3>Tipos Sanguíneos:</h3>
-            <ul>
-                <li>A+</li>
-                <li>A-</li>
-                <li>B+</li>
-                <li>B-</li>
-                <li>O+</li>
-                <li>O-</li>
-                <li>AB+</li>
-                <li>AB-</li>
-            </ul>
-        </div>
         <script src="doador.js"></script>
-    </div>
+        </section>
 <footer id="endereco"><strong>Endereços dos Posto de Coleta:</strong> Hemoce: Av. José Bastos, 3390 - Rodolfo Teófilo, Fortaleza - CE, 60431-086 | Fugisan: Barão de Studart, 2626 - Dionísio Torres, Fortaleza - CE, 60120-375</footer>
 <footer><p class="rodape">DESENVOLVIDO POR REBECA PEREIRA</p></footer>
 </body>

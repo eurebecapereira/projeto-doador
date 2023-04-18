@@ -1,74 +1,37 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #9e20d0;
-    height: 100vh;
-    
 }
 
 h1 {
-    text-align: center;
-    font-size: 50px;
+    color: rgb(240, 21, 21);
+    text-align: left;
+    font-size: 30px;
+    background-color: black;
+    margin-top: 10px;
 }
 
-div {
-    position: relative;
-    top: 0;
-    right: 0;
-}
-
-.sub {
-    height: 80px;
-}
-
-.bloco1 {
-    background-color: #d4a2dd;
-    border-radius: 8px 0px 8px 0px;
-    position: relative;
-    bottom: 40px;
-    right: -50px;
-    width: 80vh;
-    height: 30vh;
-    font-size: 1em;
+nav {
+    background-color: black;
+    color: rgb(245, 22, 22);
+    padding: 10px 10px;
     
 }
 
+#principal {
+    background-color: rgb(56, 26, 226);
+}
+
+.bloco1 {
+    color: pink;
+    background-color: white;
+}
+
 .bloco2 {
-    background-color: #d4a2dd;
-    border-radius: 8px 0px 8px 0px;
-    position: relative;
-    bottom: 40px;
-    left: 850px;
-    width: 80vh;
-    height: 30vh;
-    font-size: 1em;
-    background-position: left center;
-
-}
-
-.bloco3 {
-    background-color: #d4a2dd;
-    border-radius: 8px 0px 8px 0px;
-    position: relative;
-    bottom: 40px;
-    right: -50px;
-    width: 80vh;
-    height: 30vh;
-    font-size: 1em;
-}
-img {
-    min-width: 300px;
-    max-width: 500px;
-    background-position: left center;
-
-}
-
-p {
-    background-position: center center;
-    text-align: justify;
+    color: aqua;
+    background-color: brown;
 }
 
 footer {
-
-    text-align: justify;
+    background-color: bisque;
 }
