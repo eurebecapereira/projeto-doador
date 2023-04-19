@@ -1,30 +1,83 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Lucida Sans', Arial, sans-serif;
 }
 
 h1 {
     color: rgb(240, 21, 21);
-    text-align: left;
     font-size: 30px;
     background-color: black;
     margin-top: 10px;
+    height: 100px;
+    font-family: 'Paytone One', Arial, Helvetica, sans-serif;
 }
 
 nav {
-    background-color: black;
+    background-color: rgb(153, 173, 40);
     color: rgb(245, 22, 22);
     padding: 10px 10px;
+    font-family: 'Paytone One', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+    
+}
+ nav a > :hover {
+    color: black;
+    align-items: center;
+    
+
+ }
+
+
+#container {
+    background-color: rgb(214, 73, 17);
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    font-family: 'Amatic SC', Times, serif;
+    font-size: 20px;
+}
+
+.bloco1{
+    background-color: blueviolet;
+    height: 200px;
+    width: 600px;
+    padding: 10px 10px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 8px;
+    text-align: justify;
+    
     
 }
 
-.container {
-    background-color: rgb(56, 26, 226);
-    display: flex;
+.bloco2{
+    background-color: aqua;
+    height: 200px;
+    width: 600px;
+    padding: 10px 10px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 8px;
+    text-align: justify;
+    
+}
 
+#res {
+    background-color: brown;
+    font-family: 'Amatic SC', Times, serif;
+}
+
+#verificar {
+    font-family: 'Amatic SC', Times, serif;
+    background-color: rgb(228, 32, 32);
 }
 
 
 footer {
     background-color: bisque;
+    text-align: center;
+    font-family: 'Amatic SC', Times, serif;
 }
