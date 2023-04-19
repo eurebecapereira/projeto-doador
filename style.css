@@ -18,19 +18,12 @@ nav {
     
 }
 
-#principal {
+.container {
     background-color: rgb(56, 26, 226);
+    display: flex;
+
 }
 
-.bloco1 {
-    color: pink;
-    background-color: white;
-}
-
-.bloco2 {
-    color: aqua;
-    background-color: brown;
-}
 
 footer {
     background-color: bisque;
