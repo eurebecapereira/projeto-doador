@@ -12,23 +12,23 @@
 
                 }
             
-                if (sangue == 'A Negativo') {
+                else if (sangue == 'A Negativo') {
                 res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: A+, AB+, A-, AB-!`
                 }
-                if (sangue == 'B Positivo') {
+                else if (sangue == 'B Positivo') {
                 res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: B+ e AB+!`
                 }
-                if (sangue == 'B Negativo') {
+                else if (sangue == 'B Negativo') {
                 res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: B+ e AB+B+, AB+, B-, AB-!`
                 }
-                if (sangue == 'O Positivo') {
+                else if (sangue == 'O Positivo') {
                 res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: O+, A+, B+, AB+!`
                 }
-                if (sangue == 'O Negativo') {
+                else if (sangue == 'O Negativo') {
                 res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: O+, A+, B+, AB+, A-, B-, AB-, O-!`
                 res.innerHTML += ` Que maravilha você é um doador universal!`
                 }
-                if (sangue == 'AB Positivo') {
+                else if (sangue == 'AB Positivo') {
                 res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: AB+!`
                 }
                 if (sangue == 'AB Negativo') {
