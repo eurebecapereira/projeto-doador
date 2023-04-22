@@ -8,7 +8,7 @@
                 var sangue = String(sge.value)
                 res.innerHTML = `<p>Parabéns! Seu tipo sanguíneo é ${sangue}!</p>`
                 if (sangue == 'A Positivo') {
-                    res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: AB+ A+!`
+                    res.innerHTML += `Você pode doar para pessoas de tipo sanguíneo: AB+ e A+!`
 
                 }
             
