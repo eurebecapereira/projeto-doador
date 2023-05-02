@@ -15,29 +15,32 @@
 
     <nav>
         <a class="home" href="#">Home</a>
-        <a class="info" href="#">Informe-se</a>
-        <a class="end" href="#">Endereços</a>
-        <a class="fale" href="#">Fale Conosco</a>
+        <a class="info" href="https://www.gov.br/saude/pt-br/composicao/saes/sangue" target="_blank">Informe-se</a>
+        <a class="end" href="paginas-extras/pag03.html" target="frame">Endereços</a>
+        <a class="fale" href="paginas-extras/pag02.html" target="frame">Fale Conosco</a>
     </nav>
-        <div id="container">
+
+    <iframe id="principal" name="frame" frameborder="0" srcdoc="<p>Clique em um dos Links acima e INFORME-SE!</p> <img src='imagens/imgsangue.jpg'>"
+        <p class="erro">[ERRO: Seu navegador não é Compatível com este recurso.]</p>
+    </iframe>
+    <div id="container">
         
-            <div class="bloco1">
-                <p>Uma das dúvidas de quem deseja doar sangue é "Para que pessoas serve meu tipo sanguíneo?" Pensando nisso foi desenvolvido este programa, para que você possa responder a esta pergunta. Além disso, você tem acesso ao endereços dos Postos de Coleta.</p>
-                <p> O uso é bem simples, insira seu tipo sanguíneo ao lado, clique em verificar e descubra para quem você pode doar e de quem você pode receber.</p>
-                <p>Faça a sua parte, Doe Sangue!</p>
+        <div class="bloco1">
+            <p>Uma das dúvidas de quem deseja doar sangue é "Para que pessoas serve meu tipo sanguíneo?" Pensando nisso foi desenvolvido este programa, para que você possa responder a esta pergunta. Além disso, você tem acesso ao endereços dos Postos de Coleta.</p>
+            <p> O uso é bem simples, insira seu tipo sanguíneo ao lado, clique em verificar e descubra para quem você pode doar e de quem você pode receber.</p>
+            <p class="pp">Faça a sua parte, Doe Sangue!</p>
+        </div>
+        <div class="bloco2">
+            Digite seu tipo sanguíneo: <input type="text" name="" id="tipo">
+            <input type="button" value="VERIFICAR" id="verificar" onclick="verificar()">
+            <p id="ex"><i>Ex: Se seu tipo sanguíneo é A+, você deverá digitar "A Positivo".</i></p>
+            <div id="res">
             </div>
-            <div class="bloco2">
-                Digite seu tipo sanguíneo: <input type="text" name="" id="tipo">
-                <input type="button" value="VERIFICAR" id="verificar" onclick="verificar()">
-                <p id="ex"><i>Ex: Se seu tipo sanguíneo é A+, você deverá digitar "A Positivo".</i></p>
-                <div id="res">
-                </div>
-                <p>Agora que você sabe para quem você pode doar, é só se dirigir ao Posto de Coleta mais próximo de você, e fazer sua doação!</p>
-            </div>
-        <!--Recomeçando o código, identifiquei com cores fortes cada "caixa" para facilitar-->
-        
+            <p>Agora que você sabe para quem você pode doar, é só se dirigir ao Posto de Coleta mais próximo de você, e fazer sua doação!</p>
+        </div><!--Recomeçando o código, identifiquei com cores fortes cada "caixa" para facilitar-->
         <script src="doador.js"></script>
     </div>
+
 <footer><p class="rodape">DESENVOLVIDO POR REBECA PEREIRA</p></footer>
 </body>
 </html>
