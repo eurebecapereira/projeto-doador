@@ -1,129 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 body {
-    font-family:'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(253, 251, 251);
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
 }
 
 .inicio {
-    background-color: white;
-    text-align: center center;
+    background-image: url(imagens/fundo.jpg);
+    text-align: center;
+    height: 300px;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+    background-repeat: no-repeat;
 }
 
-h1 {
-    color: rgb(5, 0, 0);
-    font-size: 30px;
-    background: rgb(136,246,209);
-    background: #8FC1B5;
-    margin-top: 10px;
-    height: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0px 7px 9px rgba(137, 195, 197, 0.767);
-    border-radius: 7px;
-    text-align: center;
-}
 
 nav {
-    background: rgb(136,246,209);
-    background: #8FC1B5;
+    background-color: #f6faf9;
     color: rgb(3, 3, 3);
-    padding: 10px 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    border-radius: 7px;
+    text-align: center;
 
 }
 
 a:link {
-    color: black;
+    color: rgb(219, 39, 39);
     text-decoration: none;
-    background-color: rgb(253, 251, 251);
+    border-radius: 3px;
+ }
+
+a:visited {
+    color: rgb(7, 0, 0);
+    text-decoration: none;
+ }
+ 
+ a:active {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    background-color: rgba(31, 90, 90, 0.774);
     border-radius: 3px;
     
  }
 
-a:visited {
-    color: rgb(7, 7, 7);
-    text-decoration: none;
- }
- a:active {
-    color: rgb(146, 219, 185);
-    text-decoration: none;
-    background-color: rgb(55, 224, 230);
-    border-radius: 7px;
- }
-
- .home, .info, .end, .fale {
-    text-align: justify;
- } 
-
-
-#container {
-    background: #8FC1B5;
-    display: flex;
-    height: 400px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    column-gap: 30px;
-    font-family: Arial, Times, serif;
-    font-size: 18px;
-    border-radius: 7px;
-    margin-top: 10px;
-}
-
-iframe#principal {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    height: 300px;
-    background: #8FC1B5;
-    border-radius: 7px;
-    margin-top: 10px;
-}
-
-.bloco1{
-    background-color: white;
-    height: 200px;
-    width: 600px;
-    padding: 10px 10px;
-    box-shadow: 1px 1px 5px black;
-    border-radius: 8px;
-    text-align: justify;
-    
-    
-}
-
-.bloco2{
-    background-color: rgb(251, 249, 249);
-    height: 200px;
-    width: 600px;
-    padding: 10px 10px;
-    box-shadow: 1px 1px 5px black;
-    border-radius: 8px;
-    text-align: justify;
-    
-}
-.pp {
-    text-align: center;
-    font-size: larger;
-}
-
-
-#res {
-    background-color: white;
-    font-family: Arial, Times, serif;
-    font-size: 15px;
-}
-
-#verificar {
-    font-family: Arial, Helvetica, sans-serif, Times, serif;
-    color: rgb(10, 10, 10);
-    background: #8FC1B5;
-}
-
-
 footer {
-    color: white;
-    background: #8FC1B5;
+    color: rgb(7, 0, 0);
+    background-color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'M PLUS Rounded', sans-serif;
 }
 
